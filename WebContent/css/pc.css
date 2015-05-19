@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* NHN Technology Services UIT Development Center */
+
+/* Common */
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+body,input,textarea,select,button,table{font-family:'돋움',Dotum, Helvetica,sans-serif;font-size:12px}
+img,fieldset{border:0}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+a{text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:underline}
+.blind{overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0}
+#wrap{width:800px;margin:0 auto}
+#header{height:65px;background: url(http://static.naver.net/movie/2012/06/body_bg.png);position:relative;}
+#header .header_title{background:url(http://static.naver.net/movie/2014/09/201409_inde_movie.png) no-repeat; width:600px;height:35px;float:left;margin-left:20px;margin-top:15px}
+#header .navi{float:right;background:url(http://static.naver.net/movie/2014/09/201409_inde_movie.png) no-repeat;height:22px;width:118px;background-position:-270px -110px;margin-top:22px;margin-right:20px}
+#header .navi:AFTER{clear:both;display:block;content:''}
+#header .navi_menu{border:1px solid #000;background:#fff;display:none;position:absolute;right:0;top:46px}
+#header .navi_menu li{font-size:large;cursor:pointer;}
+#container{background:#f00;overflow:hidden}
+/* #container:after{clear:both;display:block;content:''} */
+#container .content{float:left;width:100%;background:#ccc;overflow:hidden;}
+/* contents */
+#container #content12{display:none}
+#container #content11{display:none}
+#container #content10{display:none}
+/* 컨텐츠 공통 */
+.content_title strong{font-size:x-large}
+.content_image .image_list{float:left;}
+.content_image .image_list strong{display:block;text-align:center;}
+#footer{height:50px;background:#ccc}
